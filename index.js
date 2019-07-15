@@ -1,37 +1,21 @@
-var customerName = 'bob';
-
-const leastFavoriteCustomer = 'osman';
-
-let favoriteCustomer = 'mahmut';
-
-function upperCaseCustomerName() {
-  customerName = customerName.toUpperCase();
+customerName ='bob';
+function upperCaseCustomerName(){
+  return customerName='BOB';
 }
-
+var bestCustomer
 function setBestCustomer(){
-  
-  bestCustomer = 'not bob';
+  return bestCustomer='not bob';
 }
-
-function overWriteBestCustomer(newBest){
-  
-  bestCustomer = newBest;
+function overWriteBestCustomer(){
+  return bestCustomer='maybe bob';
 }
-
+const leastFavoriteCustomer='bob'
 function changeLeastFavoriteCustomer(){
-  
-  leastFavoriteCustomer = 'eren';
-  
+  return leastFavoriteCustomer='not bob';
 }
-
-
-function attemptTwoFavoriteCustomers() {
-
-  let favoriteCustomer = "hakan"
+ let favoriteCustomer=5;
+function attemptTwoFavoriteCustomers(){
   
-
-  
+   let favoriteCustomer=5;
+   
 }
-
-
-
